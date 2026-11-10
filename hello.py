@@ -1,2 +1,3 @@
-name = input("What is your name? ")
-print(f"Hello, {name}!")
+text = input("Enter some text: ")
+newt = text.strip().capitalize()
+print(newt)
