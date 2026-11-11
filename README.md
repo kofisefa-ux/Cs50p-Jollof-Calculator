@@ -23,4 +23,4 @@ Hosting a gathering requires precise planning—especially when cooking a massiv
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/kofisefa-ux/VsCode.git](https://github.com/kofisefa-ux/VsCode.git)
+  git clone https://github.com/kofisefa-ux/VsCode.git
