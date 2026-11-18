@@ -4,9 +4,9 @@ def main():
     tries = 0
     print("GAME STARTED!")
     while lives > 0 and tries < 5:
-        print(f"Lives = {lives}")
-        print(f"Goals = {goals}")
-        print(f"Tries = {tries}")
+        print("\n" + "=" * 35)
+        print(f"⚽ Goals: {goals}   |   ❤️ Lives: {lives}   |   🎯 Tries: {tries}/5")
+        print("=" * 35)
         power = int(input("Input a power level from 1 to 10: "))
         target = int(input("Pick one of the 5 positions: "))
         tries += 1
