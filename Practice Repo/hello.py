@@ -7,7 +7,7 @@ def main():
     while lives > 0:
         print("---GAME STARTED---")
         power = int(input("Input a power level from 1 to 10: "))
-        target = int(input("Pick one of the 4 corners: "))
+        target = int(input("Pick one of the 5 positions: "))
         if power < 1 or power > 10:
             print("Invalid power! Skied it out of the stadium. Lose a life.")
             lives -= 1
