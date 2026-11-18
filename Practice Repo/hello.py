@@ -1,11 +1,10 @@
 def main():
-
     lives = 3
     goals = 0
-    print(f"Lives = {lives}")
-    print(f"Goals = {goals}")
+    print("GAME STARTED!")
     while lives > 0:
-        print("---GAME STARTED---")
+        print(f"Lives = {lives}")
+        print(f"Goals = {goals}")
         power = int(input("Input a power level from 1 to 10: "))
         target = int(input("Pick one of the 5 positions: "))
         if power < 1 or power > 10:
