@@ -2,7 +2,7 @@ def main():
     money = get_money()
     interest = int(input("What is your interest in %? "))
     time = int(input("How long are you investing? "))
-    calculate_total(money, time, interest)
+    total = calculate_total(money, interest, time)
     print(f"Total after {time} years = ${total:.2f}")
 def get_money():
     while True:
