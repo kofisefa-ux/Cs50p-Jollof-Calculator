@@ -3,8 +3,8 @@ def main():
     block(n)
 
 def block(n):
-    for _ in range(n):
-        print("#")
+     for _ in range(n):
+        print("#" * n)
 
 def get_number():
     while True:
