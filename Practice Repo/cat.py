@@ -8,3 +8,5 @@ def main():
 def meow(n):
     for _ in range(n):
         print("Meow")
+
+main()
