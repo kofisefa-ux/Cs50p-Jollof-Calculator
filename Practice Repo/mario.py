@@ -1,3 +1,10 @@
 def main():
-    name = input("What is your name? ")
+    name = get_name(name)
     print(f"Hello,{name}")
+
+
+def get_name():
+    x = input("What is your name? ")
+
+
+main()
